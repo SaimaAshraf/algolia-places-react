@@ -90,7 +90,7 @@ export default class AlgoliaPlaces extends React.Component {
   }
 
   shouldComponentUpdate() {
-    return false;
+    return true;
   }
 
   componentWillUnmount() {
